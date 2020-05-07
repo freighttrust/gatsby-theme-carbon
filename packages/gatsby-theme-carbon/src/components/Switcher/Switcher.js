@@ -9,7 +9,7 @@ const Switcher = ({ children }) => {
   return (
     <nav
       className={cx(nav, { [open]: switcherIsOpen })}
-      aria-label="IBM Design ecosystem navigation"
+      aria-label="Freight Trust & Clearing"
       aria-expanded={switcherIsOpen}
       tabIndex="-1"
     >
@@ -53,43 +53,43 @@ export const SwitcherLink = ({
 // https://css-tricks.com/using-css-transitions-auto-dimensions/
 // Note: if you change this, update the max-height in the switcher stylesheet
 const DefaultChildren = () => {
-  const eventLaunch = new Date('December 2, 2019');
+  const eventLaunch = new Date('May 15, 2020');
   const today = new Date();
 
   // TODO: remove after 12/2/2019 launch
   const eventProps =
     today >= eventLaunch
-      ? { href: 'https://www.ibm.com/design/event/' }
+      ? { href: '#' }
       : { disabled: true };
 
   return (
     <>
-      <SwitcherLink href="https://ibm.com/design">IBM Design</SwitcherLink>
-      <SwitcherLink href="https://ibm.com/design/language">
-        IBM Design Language
+      <SwitcherLink href="#">Trucking</SwitcherLink>
+      <SwitcherLink href="#">
+        Maritime
       </SwitcherLink>
-      <SwitcherLink href="https://ibm.com/brand">IBM Brand Center</SwitcherLink>
-      <SwitcherDivider>Design disciplines</SwitcherDivider>
-      <SwitcherLink href="https://www.carbondesignsystem.com/">
-        Product
+      <SwitcherLink href="#">Brokers</SwitcherLink>
+      <SwitcherDivider>Solutions</SwitcherDivider>
+      <SwitcherLink href="#">
+        Customs U.S.
       </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/standards/web/">
-        Digital
+      <SwitcherLink href="#">
+        Trade Finance
       </SwitcherLink>
-      <SwitcherLink {...eventProps}>Event</SwitcherLink>
-      <SwitcherLink disabled>Workplace</SwitcherLink>
-      <SwitcherDivider>Design practices</SwitcherDivider>
-      <SwitcherLink href="https://www.ibm.com/design/thinking/">
-        Enterprise Design Thinking
+      <SwitcherLink {...eventProps}>Network Launch</SwitcherLink>
+      <SwitcherLink disabled>Network Status</SwitcherLink>
+      <SwitcherDivider>Documentation</SwitcherDivider>
+      <SwitcherLink href="https://freight-chain.github.io/obm">
+        Enterprise
       </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/design/research/">
-        IBM Design Research
+      <SwitcherLink href="#">
+        Benchmarks
       </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/design/ai">
-        IBM Design for AI
+      <SwitcherLink href="#">
+        Request Information
       </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/services/ibmix/">
-        IBM iX
+      <SwitcherLink href="#">
+        Pricing
       </SwitcherLink>
     </>
   );
