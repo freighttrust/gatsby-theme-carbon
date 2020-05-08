@@ -48,27 +48,3 @@
       path: /components/FeatureCard
     - title: FeedbackDialog
       path: /components/FeedbackDialog
-    - title: GifPlayer
-      path: /components/GifPlayer
-    - title: Grid
-      path: /components/Grid
-    - title: ImageCard
-      path: /components/ImageCard
-    - title: ImageGallery
-      path: /components/ImageGallery
-    - title: InlineNotification
-      path: /components/InlineNotification
-    - title: Markdown
-      path: /components/markdown
-    - title: MediumPosts
-      path: /components/MediumPosts
-    - title: PageDescription
-      path: /components/PageDescription
-    - title: ResourceCard
-      path: /components/ResourceCard
-    - title: Tabs
-      path: /components/Tabs
-    - title: Title
-      path: /components/Title
-    - title: Video
-      path: /components/Video
