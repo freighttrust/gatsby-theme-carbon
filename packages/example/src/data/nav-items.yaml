@@ -1,42 +1,42 @@
-- title: Getting started
+- title: ShipperEDI
   pages:
     - path: /getting-started
-- title: Demo
+- title: CarrierEDI
   pages:
     - path: /demo
-- title: Gallery
+- title: Trade Finance
   pages:
     - path: /gallery
-- title: Contributions
+- title: Corporate
   pages:
     - path: /contributions
-- title: Guides
+- title: Industry
   pages:
-    - title: Configuration
+    - title: Trucking
       path: /guides/configuration
-    - title: Authoring MDX
+    - title: Ocean
       path: /guides/MDX
-    - title: Shadowing
+    - title: Intermodal
       path: /guides/shadowing
-    - title: Styling
+    - title: Customs
       path: /guides/styling
-    - title: Navigation
+    - title: Haz. Mat
       path: /guides/navigation/sidebar
-    - title: npm scripts
+    - title: Other
       path: /guides/npm-scripts
-- title: Components
+- title: Documentation
   pages:
-    - title: Accordion
+    - title: EDI
       path: /components/Accordion
-    - title: AnchorLinks
+    - title: Blockchain
       path: /components/AnchorLinks
-    - title: ArtDirection
+    - title: Smart Contracts
       path: /components/ArtDirection
-    - title: ArticleCard
+    - title: Vendors
       path: /components/ArticleCard
-    - title: Aside
+    - title: Integrations
       path: /components/Aside
-    - title: Caption
+    - title: Features
       path: /components/Caption
     - title: Code blocks
       path: /components/code-blocks
